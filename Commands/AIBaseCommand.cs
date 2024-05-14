@@ -85,7 +85,7 @@ namespace AI_Studio
             }
             foreach (var input in AssistantInputs)
             {
-                chat.AppendExampleChatbotOutput(input);
+                chat.AppendUserInput(input);
             }
 
             try
